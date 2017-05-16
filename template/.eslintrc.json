@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": "standard",
+  "rules": {
+    // allow paren-less arrow functions
+    "arrow-parens": 0,
+    // allow async-await
+    "generator-star-spacing": 0,
+    // http://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": ["error", "only-multiline"],
+    "semi": 0
+  }
+}
