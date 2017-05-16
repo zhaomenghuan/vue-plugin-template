@@ -1,0 +1,21 @@
+{
+  "name": "vue-plugin-template",
+  "version": "1.0.0",
+  "description": "Template for vue plugins",
+  "main": "meta.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhaomenghuan/vue-plugin-template.git"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "template"
+  ],
+  "author": "zhaomenghuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaomenghuan/vue-plugin-template/issues"
+  },
+  "homepage": "https://github.com/zhaomenghuan/vue-plugin-template#readme"
+}
