@@ -23,7 +23,7 @@ module.exports = {
     "author": {
       "type": "string",
       "message": "Author"
-    }
+    },
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
