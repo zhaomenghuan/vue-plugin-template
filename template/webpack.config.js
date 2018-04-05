@@ -153,11 +153,8 @@ if (process.env.NODE_ENV === "production") {
         template: "index.html",
         inject: true
       }),
-      new webpack.optimize.UglifyJsPlugin({
-        sourceMap: false,
-        compress: {
-          warnings: false
-        }
+      new UglifyJSPlugin({
+        sourceMap: false
       }),
       new webpack.LoaderOptionsPlugin({
         minimize: true
