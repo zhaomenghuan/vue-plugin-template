@@ -3,14 +3,14 @@
   "name": "{{name}}",
   "version": "1.0.0",
   "description": "{{description}}",
-  "main": "{{author}}",
+  "main": "src/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "release": "cross-env NODE_ENV=release webpack --progress --hide-modules",
     "doc": "jsdoc -c jsdoc.conf.json"
   },
-  "author": "zhaomenghuan",
+  "author": "{{author}}",
   "devDependencies": {
     "@pixi/jsdoc-template": "^2.4.0",
     "babel-core": "^6.24.1",

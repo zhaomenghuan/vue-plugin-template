@@ -85,11 +85,11 @@ if (process.env.NODE_ENV === "release") {
     entry: "./src/index.js",
     output: {
       path: path.resolve(__dirname, "lib"),
-      filename: "AgreeSDK.js",
+      filename: "{{name}}.js",
       libraryTarget: "umd"
     },
     plugins: [
-      new webpack.BannerPlugin("AgreeSDK v1.0.0 (http://www.agree.com.cn/)"),
+      new webpack.BannerPlugin("{{name}} v1.0.0 (http://www.agree.com.cn/)"),
       new UglifyJSPlugin({
         sourceMap: false
       }),
