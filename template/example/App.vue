@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <h1>vue-plugin-template</h1>
+    <h1>{{name}}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "app"
+  name: "app",
+  data() {
+    return {
+      name: "",
+      version: ""
+    }
+  },
+  mounted() {
+    this.name = window.plugin.name;
+  }
 };
 </script>
 
@@ -22,12 +31,7 @@ body {
 
 h1 {
   width: 100%;
-  min-height: 50px;
-  margin: 10px 0px;
-  color: #383838;
-  background-color: #fff;
-  outline: none;
-  border: none;
-  font-size: 16px;
+  text-align: center;
+  margin: 100px auto;
 }
 </style>
