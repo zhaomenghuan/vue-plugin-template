@@ -11,7 +11,7 @@ export default {
     return {
       name: "",
       version: ""
-    }
+    };
   },
   mounted() {
     this.name = window.plugin.name;
@@ -26,12 +26,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #eee;
 }
 
 h1 {
   width: 100%;
+  height: 100%;
+  line-height: 100%;
   text-align: center;
-  margin: 100px auto;
+  font-size: 20px;
 }
 </style>
